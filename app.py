@@ -60,7 +60,7 @@ Once you've input the details, voilà! Dive deep into questions crafted just for
 #         st.video("https://youtu.be/yzBr3L2BIto", format="video/mp4", start_time=0)
 
 with st.form("user_input"):
-    YOUTUBE_URL = st.text_input("Enter the YouTube video link:", value="https://youtu.be/bcYwiwsDfGE?si=qQ0nvkmKkzHJom2y")
+    YOUTUBE_URL = st.text_input("Enter the YouTube video link:", value="")
     GROQ_API_KEY = st.text_input("Enter your Groq API Key:", placeholder="sk-XXXX", type='password')
     submitted = st.form_submit_button("Craft my quiz!")
 
