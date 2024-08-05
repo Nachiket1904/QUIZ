@@ -1,6 +1,6 @@
 import streamlit as st # type: ignore
 from helpers.youtube_utils import extract_video_id_from_url, get_transcript_text
-from quiz_work.helpers.groqai_utils import get_quiz_data
+from helpers.groqai_utils import get_quiz_data
 from helpers.quiz_utils import string_to_list, get_randomized_options
 from helpers.toast_messages import get_random_toast
 
